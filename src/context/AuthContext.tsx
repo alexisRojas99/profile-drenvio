@@ -1,5 +1,4 @@
 import { createContext, FC, ReactNode, useLayoutEffect, useState } from "react";
-import { verifyToken } from "../services/auth/auth";
 interface Context {
 	user: null | Object;
 	setUser: Function;
