@@ -5,11 +5,16 @@ Execute command for clone this repository:
 ```bash
 git clone https://github.com/alexisRojas99/profile-drenvio.git
 ```
-### Step 2: Install dependencies
+### Step 2: Create new file environment
+Create new file environment with name `.env` and copy content of `.env.example` in this file.  
+
+For example VITE_API_HOST=https://randomuser.me/api/
+
+### Step 3: Install dependencies
 ```bash
 npm install
 ```
-### Step 3: Run the project
+### Step 4: Run the project
 ```bash
 npm run dev
 ```
