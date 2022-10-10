@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import { useQuery } from "react-query";
 import { getUserProfile } from "../../../services/users";
-import style from "./HomeUserView.module.css";
 import banner from "./../../../assets/images/banner.jpg";
 import SpinnerAnimation from "../../../components/animations/SpinnerAnimation";
 import { Flex, Box, Image, Text, VStack } from "@chakra-ui/react";
@@ -263,31 +262,6 @@ const HomeUserView = () => {
 						</Flex>
 					</Flex>
 				</VStack>
-				// <div className={style.profile_container}>
-				// 	<section className={style.main_card}>
-				// 		<div className={style.banner}>
-				// 			<img src={banner} alt="banner" />
-				// 		</div>
-
-				// 		<div className={style.user_picture}>
-				// 			<div className={style.image}>
-				// 				<img src={profile?.picture?.large} alt={profile?.name?.first} />
-				// 			</div>
-				// 			<span className={style.icon}>
-				// 				<svg viewBox="0 0 16 16" data-supported-dps="16x16" fill="gray">
-				// 					<path d="M10 9a2 2 0 11-2-2 2 2 0 012 2zm5-2.5V14H1V6.5A2.5 2.5 0 013.5 4h.75L5 2h6l.75 2h.75A2.5 2.5 0 0115 6.5zM11 9a3 3 0 10-3 3 3 3 0 003-3z"></path>
-				// 				</svg>
-				// 			</span>
-				// 		</div>
-				// 	</section>
-				// 	<section>
-				// 		<div className={style.user_info}>
-				// 			<div className={style.user_name}>
-				// 				<h3>{`${profile?.name?.first} ${profile?.name?.last}`}</h3>
-				// 			</div>
-				// 		</div>
-				// 	</section>
-				// </div>
 			)}
 		</>
 	);
